@@ -26,9 +26,6 @@ Before starting, ensure you have the following:
 - Basic understanding of **PySpark, SQL, and Data Engineering concepts**.
 - Familiarity with **Azure services** and **data pipeline orchestration**.
 
-## Acknowledgments  
-This project was inspired by and developed following Ansh Lamba's excellent tutorial [Azure End-To-End Data Engineering Project (Job Ready) | Azure Data Engineering Bootcamp](https://www.youtube.com/watch?v=6_hXeNg9TJ0&t=20753s). His comprehensive guide on building job-ready data engineering pipelines with Azure services was instrumental in creating this project. I highly recommend checking out his YouTube channel for more in-depth data engineering content.
-
 ## Setup Instructions
 To get started with the project, follow the setup guide available at:
 [Setup Guide](setup.md) 
