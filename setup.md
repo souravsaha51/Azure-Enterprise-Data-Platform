@@ -13,8 +13,6 @@ Next, I built a **data lake** by creating a storage account:
 4. Kept the region as **South India** for consistency.  
 5. Chose **Standard** performance (cost-effective) and **Locally Redundant Storage (LRS)** – stores 3 copies of data in one datacenter.
 
-
-![image]()
 <br>  
 *‼️‼️‼️ VERY VERY IMPORTANT ‼️‼️‼️*  
 Under the *Advanced* tab, I enabled **hierarchical namespace**. This is **critical** – without it, Azure creates a basic *Blob Storage* account instead of a data lake. Blob Storage is simpler, designed for unstructured files (images, documents), but lacks folder structures needed for analytics. Enabling hierarchical namespace converts it to **Azure Data Lake Gen2**, which organizes files into directories (like a traditional filesystem). Clicked *Review + Create* and finalized it.  
