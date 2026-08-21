@@ -1,9 +1,7 @@
 # My Azure Setup Walkthrough  
 
-I began by creating a **resource group** – a logical container to organize Azure services like databases and storage for my project. Named it `shayanathif-data-project`. While the name only needs to be unique within *my* Azure subscription (not globally), I still picked something descriptive. Selected **South India** as the region since it’s closest to me, which reduces latency.    
+I began by creating a **resource group** – a logical container to organize Azure services like databases and storage for my project. While the name only needs to be unique within *my* Azure subscription (not globally), I still picked something descriptive. Selected **South India** as the region since it’s closest to me, which reduces latency.    
 <br>
-![image]()
-
 
 ---
 
@@ -11,7 +9,7 @@ I began by creating a **resource group** – a logical container to organize Azu
 Next, I built a **data lake** by creating a storage account:  
 1. Searched for *Storage Account* in Azure and clicked *Create*.  
 2. Selected my existing resource group.  
-3. Gave the storage account name as `shayanathifdatalake` (Must be unique;Azure enforces this).  
+3. Gave the storage account name (Must be unique;Azure enforces this).  
 4. Kept the region as **South India** for consistency.  
 5. Chose **Standard** performance (cost-effective) and **Locally Redundant Storage (LRS)** – stores 3 copies of data in one datacenter.
 
@@ -26,7 +24,7 @@ Under the *Advanced* tab, I enabled **hierarchical namespace**. This is **critic
 ## **Setting Up Data Factory**  
 For automating data workflows, I created **Azure Data Factory**:  
 1. Searched for *Data Factory* in Azure.  
-2. Selected my resource group, name (`shayanathif-datafactory`) and region (**South India**).  
+2. Selected my resource group, name and region (**South India**).  
 3. Skipped advanced settings (kept defaults) and clicked *Create*.  
 This will later help orchestrate pipelines to move data between services.
   
