@@ -25,8 +25,6 @@ For automating data workflows, I created **Azure Data Factory**:
 2. Selected my resource group, name and region (**South India**).  
 3. Skipped advanced settings (kept defaults) and clicked *Create*.  
 This will later help orchestrate pipelines to move data between services.
-  
-![image]()
 
 
 ---
@@ -46,8 +44,6 @@ Under database configuration:
 - **Workload Environment**: Selected *Development* (lower cost, limited performance – ideal for testing).  
 - **Backup Redundancy**: Chose *Locally Redundant (LRS)*. Other options:  
     
-![image]()
-
 
 In *Networking*, enabled **Public Endpoint** for easy access (⚠️ risky for production but okay for short-term testing).  
 
@@ -56,8 +52,7 @@ In *Networking*, enabled **Public Endpoint** for easy access (⚠️ risky for p
 - 32 GB database storage  
 - 32 GB backup storage  
 Without this, it would’ve cost ~474 INR/month.  
-  
-![image]()
+
 
 Clicked *Review + Create*, finalized settings, and deployed.  
 
@@ -65,7 +60,6 @@ Clicked *Review + Create*, finalized settings, and deployed.
 
 ## **Final Setup**  
 Now that our setup is complete, let's review the resource group.  
-![image]()
 
 
 Here, we can see the data lake, the data factory, databaseand the database server.
