@@ -2,7 +2,7 @@
 ## Overview
 This project focuses on building a comprehensive data engineering pipeline using **Azure Data Factory, Databricks, and PySpark**. It leverages modern cloud technologies and best practices to ensure efficient data processing and governance.
   
-![image](https://github.com/souravsaha51/Azure-Enterprise-Data-Platform/blob/main/diagram.png)
+![image](https://github.com/souravsaha51/Azure-Enterprise-Data-Platform/blob/main/images/diagram.png)
   
 
 ### Key Components:
